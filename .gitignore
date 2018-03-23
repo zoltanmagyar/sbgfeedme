@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+# Introductory note: ignore-exclusions are fucking confusing, see http://stackoverflow.com/questions/3001888/how-do-gitignore-exclusion-rules-actually-work and http://stackoverflow.com/questions/2820255/how-do-negated-patterns-work-in-gitignore
+atlassian-ide-plugin.xml
+target/
+# Ignore everything _in_ .idea, otherwise exclusions won't work
+/.idea/*
+# Exclude things we want to share/are not generated (properly) by sbt
+!/.idea/codeStyleSettings.xml
+!/.idea/vcs.xml
+!/.idea/inspectionProfiles/
+!/.idea/runConfigurations/
+/.idea_modules/
+/sbt/sbt-settings
+test-output
+.DS_Store
+=======
+*.class
+*.log
+>>>>>>> 56f6321... Initial commit
